@@ -1,14 +1,14 @@
 {
-  "index": "About [todo] Chain",
+  "index": "About Victory Chain",
   "seperator_1": {
     "type": "separator",
     "title": "Getting Started"
   },
-  "metamask": "Add [todo] Testnet to Metamask",
-  "bridge": "Bridge Assets to [todo]",
+  "metamask": "Add Victory Chain to Metamask",
+  "bridge": "Bridge Assets to Victory Chain",
   "faucet": "Receive Faucet Funds",
   "advanced": {
-    "title":"Deploy on [todo] Testnet"
+    "title":"Deploy on Victory Chain"
   },
   "seperator_2": {
     "type": "separator",
