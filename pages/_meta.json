@@ -10,23 +10,26 @@
   "advanced": {
     "title":"Deploy on Victory Chain"
   },
+  "vault": {
+    "title":"Victory Vault"
+  },
   "seperator_2": {
     "type": "separator",
     "title": "User Tools"
   },
   "explorer": {
     "title": "Block Explorer ↗",
-    "href": "todo: insert explorer link",
+    "href": "https://testnet.explorer.victorychain.io/",
     "newWindow": true
   },
   "Bridge": {
     "title": "Bridge UI ↗",
-    "href": "todo: insert bridge UI link",
+    "href": "https://testnet.bridge.victorychain.io/",
     "newWindow": true
   },
   "hub": {
     "title": "Hub Page ↗",
-    "href": "todo: insert hub page link",
+    "href": "https://testnet.hub.victorychain.io/",
     "newWindow": true
   }
 }
