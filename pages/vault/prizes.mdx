@@ -54,33 +54,39 @@ The rewards are divided into two primary categories:
 ### Stake Weight Calculation
 Each participant's stake weight determines their chances of winning the daily prize:
 
-W_i = S_i / T
+$$
+W_i = \frac{S_i}{T}
+$$
 
 Where:
-- W_i: Stake weight of participant i
-- S_i: Amount staked by participant i
-- T: Total amount staked in the Prize Pool
+- $W_i$: Stake weight of participant i
+- $S_i$: Amount staked by participant i
+- $T$: Total amount staked in the Prize Pool
 
 ### Winner Probability
 The probability of winning at least once in a single reward round:
 
+$$
 P_i = 1 - (1 - W_i)^n
+$$
 
 Where:
-- P_i: Probability of participant i winning
-- W_i: Stake weight of participant i
-- n: Number of winners selected in the round
+- $P_i$: Probability of participant i winning
+- $W_i$: Stake weight of participant i
+- $n$: Number of winners selected in the round
 
 ### Reward Allocation
 Staking rewards distribution formula:
 
-R_i = (W_i / ΣW_j) × R
+$$
+R_i = \frac{W_i}{\sum W_j} \times R
+$$
 
 Where:
-- R_i: Reward allocated to winner i
-- W_i: Stake weight of winner i
-- ΣW_j: Total stake weight of all winners
-- R: Total staking rewards available for the round
+- $R_i$: Reward allocated to winner i
+- $W_i$: Stake weight of winner i
+- $\sum W_j$: Total stake weight of all winners
+- $R$: Total staking rewards available for the round
 
 ## Example Scenario
 
